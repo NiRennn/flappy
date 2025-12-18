@@ -30,7 +30,7 @@ function App() {
 
 
     // start_param (то, что приходит из ссылки вида ?startapp=xxxx)
-    console.log("start_param:", tg.initDataUnsafe);
+    console.log("start_param:", tg.initData);
 
     tg.ready?.(); // обычно вызывают при старте
   }, []);
