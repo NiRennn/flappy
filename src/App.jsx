@@ -20,12 +20,17 @@ function App() {
 
     // Данные пользователя
     console.log("id:", user?.id);
+    //783751626
     console.log("first_name:", user?.first_name);
+    //Кост
     console.log("last_name:", user?.last_name);
+    //-
     console.log("username:", user?.username);
+    //Deadly_Harlequine
+
 
     // start_param (то, что приходит из ссылки вида ?startapp=xxxx)
-    console.log("start_param:", tg.initDataUnsafe?.start_param);
+    console.log("start_param:", tg.initDataUnsafe);
 
     tg.ready?.(); // обычно вызывают при старте
   }, []);
